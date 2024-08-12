@@ -62,7 +62,9 @@ export const DATA = {
         title: "Software Engineering Fellow",
         logoUrl: "/headstarter.jpg",
         start: "Jul 2024",
+        /*...*/
         end: "Present",
+        /*...*/
         additionalInfo: (
           <ul>
             <li>- Selected for a 7-week software engineering fellowship focused on building 5 AI projects.</li>

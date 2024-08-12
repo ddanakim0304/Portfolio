@@ -68,7 +68,7 @@ export default function Page() {
                 href={work.href}
                 badges={work.badges}
                 period={`${work.start} - ${work.end ?? "Present"}`}
-                additionalInfo={work.additionalInfo}
+                additionalInfo={work.additionalInfo ?? null}
               />
             </BlurFade>
           ))}
@@ -201,13 +201,13 @@ export default function Page() {
         <BlurFade delay={BLUR_FADE_DELAY * 16}>
           <div className="space-y-3">
             <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-              Let's Connect!
+              Let&aposs Connect!
             </div>
             <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
               Get in Touch
             </h2>
             <p className="text-left mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              I'm currently on the lookout for a <strong>summer 2025 internship</strong>, and also open to <strong>fall 2024</strong> and <strong>spring 2025</strong> opportunities! If you've got something exciting in mind, let's chat. Drop me an email at{" "}
+              I&aposm currently on the lookout for a <strong>summer 2025 internship</strong>, and also open to <strong>fall 2024</strong> and <strong>spring 2025</strong> opportunities! If you&aposve got something exciting in mind, let&aposs chat. Drop me an email at{" "}
               <a href={`mailto: Dain Kim ${DATA.contact.email}`} className="text-foreground underline">
                 {DATA.contact.email}
               </a>{" "}
