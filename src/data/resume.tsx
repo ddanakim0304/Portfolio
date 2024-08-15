@@ -13,10 +13,12 @@ export const DATA = {
   avatarUrl: "/me.png",
   skills: [
     "Python",
-    "HTML/CSS/JS",
+    "HTML/CSS",
     "React",
     "Next.js",
     "Typescript",
+    "Firebase",
+    "Vercel",
     "C#",
     "Unity", // color code this (or make a section for game dev)
     "Unreal Engine",
@@ -115,8 +117,7 @@ export const DATA = {
       logoUrl: "/minerva.jpg",
       start: "2022",
       end: "2026",
-      description: `- Admitted to a highly selective (<2% acceptance rate) liberal arts college; will study in seven international cities.`,
-      additionalInfo: (
+       additionalInfo: (
         <ul>
           <li>- Admitted to a highly selective (&lt;2% acceptance rate) liberal arts college; will study in seven international cities.</li>
           <li>- Relevant Coursework: CS110: Problem Solving with Data Structures and Algorithms; CS113: Theory and Applications of Linear Algebra; CS111: Single and Multivariable Calculus.</li>
