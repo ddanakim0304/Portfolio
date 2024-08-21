@@ -1,4 +1,5 @@
-dain-kim.com/
+## Check Out My Latest Portfolio
 
-https://github.com/user-attachments/assets/5a36bfe7-a2de-42d2-9ca1-30f30b39a8f6
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pW5xyPNFkJg" frameborder="0" allowfullscreen></iframe>
 
+Check out my latest portfolio: <a href="http://dain-kim.com">dain-kim.com</a>
