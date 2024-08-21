@@ -1,5 +1,5 @@
 ## Check Out My Latest Portfolio
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pW5xyPNFkJg" frameborder="0" allowfullscreen></iframe>
+[![Watch the video](https://img.youtube.com/vi/pW5xyPNFkJg/maxresdefault.jpg)](https://youtu.be/pW5xyPNFkJg)
 
-Check out my latest portfolio: <a href="http://dain-kim.com">dain-kim.com</a>
+Check out my latest portfolio: [dain-kim.com](http://dain-kim.com)
