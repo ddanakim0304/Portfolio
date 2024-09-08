@@ -180,7 +180,7 @@ export const DATA = {
       dates: "Sep 2024",
       active: true,
       description: 
-        "Developed as a Google Chrome extension, this tool simplifies the process of fetching and copying Google Calendar events for easy transfer into task management apps. It streamlines the workflow for users who prefer managing tasks in multiple tools by centralizing event information from Google Calendar to their preferred to-do list. The extension fetches event titles and times and allows copying with a single click.",
+        "Developed as a Google Chrome extension, this tool streamlines copying Google Calendar event details (titles and times) for quick transfer into task management apps, centralizing workflows for users managing tasks across multiple tools.",
       technologies: [
         "JavaScript",
         "Chrome Extensions API",
