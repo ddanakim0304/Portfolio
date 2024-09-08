@@ -171,6 +171,29 @@ export const DATA = {
       image: "",
       video:
         "/gameplay.mp4",
+    },     {
+      title: "GCAL Event Copier Extension",
+      href: "https://github.com/ddanakim0304/GCal-event-copier-extension",
+      dates: "Sep 2024",
+      active: true,
+      description: 
+        "Developed as a Google Chrome extension, this tool simplifies the process of fetching and copying Google Calendar events for easy transfer into task management apps. It streamlines the workflow for users who prefer managing tasks in multiple tools by centralizing event information from Google Calendar to their preferred to-do list. The extension fetches event titles and times and allows copying with a single click.",
+      technologies: [
+        "JavaScript",
+        "Chrome Extensions API",
+        "Google Calendar API",
+        "HTML/CSS",
+        "OAuth2 Authentication",
+      ],
+      links: [
+        {
+          type: "Github",
+          href: "https://github.com/ddanakim0304/GCal-event-copier-extension",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "/gcal_demo_final.gif",
+      video: "",
     },
     {
       title: "JARVIS AI Voice Assistant",
@@ -186,7 +209,7 @@ export const DATA = {
       ],
       links: [
         {
-          type: "Source",
+          type: "Github",
           href: "https://github.com/ddanakim0304/Jarvis-AI-Voice-Assistant.git",
           icon: <Icons.github className="size-3" />,
         },
