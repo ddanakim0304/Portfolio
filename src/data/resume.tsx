@@ -9,7 +9,7 @@ export const DATA = {
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
     "Software Engineer, Game Developer, Designer..... and so much more! I love creating things that enrich people's lives 🐋🌊",
-  summary: "Currently, I’m focused on building AI SaaS for university students and developing games, crafting immersive and impactful experiences. I’m still learning, learning, and learning!   \nWhen I’m not working, you’ll find me with my nose in a book (fun fact: I read 65 books in the last six months!), scaling indoor climbing walls, playing indie games, exploring new places, or just hanging out with friends.",
+  summary: "Currently, I’m focused on building AI SaaS for university students and developing games, crafting immersive and impactful experiences. \nWhen I’m not working, you’ll find me with my nose in a book (fun fact: I read 65 books in the last six months!), scaling indoor climbing walls, playing indie games, exploring new places, or just hanging out with friends.",
   avatarUrl: "/me.png",
   skills: [
     "Python",
