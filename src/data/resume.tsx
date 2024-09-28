@@ -60,13 +60,13 @@ export const DATA = {
 
   work: [
     {
-    company: "Headstarter",
-    href: "https://headstarter.co/",
+    company: "APTO BIO",
+    href: "https://apto.bio/",
     badges: [],
-    location: "Remote",
-    title: "Software Engineering Fellow",
-    logoUrl: "/headstarter.jpg",
-    start: "Jul 2024",
+    location: "Buenos Aires, Argentina",
+    title: "Software Engineer Internship",
+    logoUrl: "/apto.png",
+    start: "Sep 2024",
     /*...*/
     end: "Present",
     /*...*/
@@ -87,7 +87,7 @@ export const DATA = {
         logoUrl: "/headstarter.jpg",
         start: "Jul 2024",
         /*...*/
-        end: "Present",
+        end: "Sep 2024",
         /*...*/
         additionalInfo: (
           <ul>
