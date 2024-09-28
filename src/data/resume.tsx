@@ -59,6 +59,25 @@ export const DATA = {
   },
 
   work: [
+    {
+    company: "Headstarter",
+    href: "https://headstarter.co/",
+    badges: [],
+    location: "Remote",
+    title: "Software Engineering Fellow",
+    logoUrl: "/headstarter.jpg",
+    start: "Jul 2024",
+    /*...*/
+    end: "Present",
+    /*...*/
+    additionalInfo: (
+      <ul>
+        <li>- Collaborated in a team to enhance doctor-patient connections through personalized monitoring, delivering user-friendly interfaces and efficient data systems using  JavaScript, TypeScript, HTML, CSS, Node.js, and Python </li>
+        <li>- Integrated AI solutions, specifically using ChatGPT, to automate tasks and improve care quality, while utilizing version control with Git and database modeling with MySQL, contributing to a robust healthcare software platform.
+        </li>
+      </ul>
+    ),
+  },
       {
         company: "Headstarter",
         href: "https://headstarter.co/",
@@ -72,8 +91,12 @@ export const DATA = {
         /*...*/
         additionalInfo: (
           <ul>
-            <li>- Selected for a 7-week software engineering fellowship focused on building 5 AI projects.</li>
-            <li>- Created AI-powered Video Interview with a team of three, utilizing Next.js, TypeScript, GPT/Whisper API, Vercel.</li>
+            <li>- Built and deployed 5 AI projects in 5 weeks using React JS, Next.js, Firebase, Clerk, and Vercel, following agile methodologies with weekly sprints and incorporated CI/CD practices for iterative deployment
+            </li>
+            <li>- Collaborated with 3 Fellows to develop an AI-powered video interview app using React JS, TypeScript, Next.js, OpenAI API, Whisper TTS API, and Eleven Labs API, resulting in over 300+ waitlisted users.
+            </li>
+            <li>- Built and deployed a SaaS product that generates dynamic flashcards to facilitate programming language learning using the Llama 3.1 LLM via the Groq API, integrated a paywall and custom pricing plans using the Stripe API
+            </li>
           </ul>
         ),
       },
@@ -174,7 +197,33 @@ export const DATA = {
       image: "",
       video:
         "/gameplay.mp4",
-    },     {
+    },      
+    {
+      title: "Intervey",
+      href: "https://github.com/benny02hun/Survey-App",
+      dates: "Jul 2024",
+      active: true,
+      description:
+        "I worked in a team of three to develop an AI-powered video interview app aimed at streamlining the survey process. The app delivers a seamless, AI-driven interview experience, utilizing technologies like React JS, TypeScript, Next.js, OpenAI API, Whisper TTS API, and Eleven Labs API. This solution successfully garnered interest from over 300 waitlisted users.",
+      technologies: [
+        "React",
+        "JavaScript", "TypeScript",
+        "Next.js", 
+        "OpenAI API", 
+        "Whisper API"
+      ],
+      links: [
+        {
+          type: "Github",
+          href: "https://github.com/benny02hun/Survey-App",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "",
+      video:
+        "/Intervey.mp4",
+    },   
+    {
       title: "GCAL Event Copier Extension",
       href: "https://github.com/ddanakim0304/GCal-event-copier-extension",
       dates: "Sep 2024",
@@ -183,7 +232,7 @@ export const DATA = {
         "Developed as a Google Chrome extension, this tool streamlines copying Google Calendar event details (titles and times) for quick transfer into task management apps, centralizing workflows for users managing tasks across multiple tools.",
       technologies: [
         "JavaScript",
-        "Chrome Extensions API",
+        "Chrome Extension",
         "Google Calendar API",
         "HTML/CSS",
         "OAuth2 Authentication",
