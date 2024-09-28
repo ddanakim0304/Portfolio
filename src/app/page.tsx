@@ -113,7 +113,7 @@ export default function Page() {
         </div>
       </section>
       <section id="projects">
-        <div className="space-y-12 w-full py-12">
+        <div className="space-y-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
@@ -152,52 +152,46 @@ export default function Page() {
           </div>
         </div>
       </section>
-      {/* 
-      <section id="hackathons">
-        <div className="space-y-12 w-full py-12">
+      <section id="Travel">
+        <div className="space-y-6 w-full py-6">
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  Hackathons
+                  Travel
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  I like building things
+                  Traveling Around the World
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  During my time in university, I attended{" "}
-                  {DATA.hackathons.length}+ hackathons. People from around the
-                  country would come together and build incredible things in 2-3
-                  days. It was eye-opening to see the endless possibilities
-                  brought to life by a group of motivated and passionate
-                  individuals.
+                  At Minerva University, I’ve had the incredible opportunity to live, study, and work in 7 different international cities, immersing myself in each city's unique culture. Here are a few of my favorite memories from these experiences!
                 </p>
               </div>
             </div>
           </BlurFade>
+
           <BlurFade delay={BLUR_FADE_DELAY * 14}>
-            <ul className="mb-4 ml-4 divide-y divide-dashed border-l">
-              {DATA.hackathons.map((project, id) => (
-                <BlurFade
-                  key={project.title + project.dates}
-                  delay={BLUR_FADE_DELAY * 15 + id * 0.05}
-                >
-                  <HackathonCard
-                    title={project.title}
-                    description={project.description}
-                    location={project.location}
-                    dates={project.dates}
-                    image={project.image}
-                    links={project.links}
-                  />
-                </BlurFade>
-              ))}
+            <ul>
+              <li className="py-0 flex flex-col items-center">
+                <video 
+                  src="/Travel.mp4"
+                  loop 
+                  playsInline
+                  className="w-full md:w-3/4 rounded-lg shadow-lg"
+                />
+                <div className="mt-6 space-y-2 text-center md:text-left">
+                  <p className="text-muted-foreground">
+                  This was taken during my time in Berlin, where I collaborated with the international student education organization, DEGIS, and explored the city's historical landmarks. This particular moment was captured during my trip to Finland!                  </p>
+                </div>
+              </li>
             </ul>
           </BlurFade>
+
         </div>
-      </section> */}
+      </section>
+
       <section id="contact">
-      <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
+      <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-6">
         <BlurFade delay={BLUR_FADE_DELAY * 16}>
           <div className="space-y-3">
             <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
@@ -207,7 +201,7 @@ export default function Page() {
               Get in Touch
             </h2>
             <p className="text-left mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              I&aposm currently on the lookout for a <strong>summer 2025 internship</strong>, and also open to <strong>fall 2024</strong> and <strong>spring 2025</strong> opportunities! If you&aposve got something exciting in mind, let&aposs chat. Drop me an email at{" "}
+              I&apos;m currently on the lookout for a <strong>summer 2025 internship</strong>, and also open to <strong>fall 2024</strong> and <strong>spring 2025</strong> opportunities! If you&aposve got something exciting in mind, let&aposs chat. Drop me an email at{" "}
               <a href={`mailto: Dain Kim ${DATA.contact.email}`} className="text-foreground underline">
                 {DATA.contact.email}
               </a>{" "}

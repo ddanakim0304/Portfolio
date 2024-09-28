@@ -135,6 +135,8 @@ export const DATA = {
         ),
       },    
   ],
+  hackathons: [
+  ],
   education: [
     {
       school: "Minerva University",
@@ -269,7 +271,5 @@ export const DATA = {
       image: "",
       video: "/jarvis.mp4",
     },
-  ],
-  hackathons: [
-  ],
+  ]
 } as const;
