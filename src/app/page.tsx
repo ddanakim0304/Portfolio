@@ -164,7 +164,7 @@ export default function Page() {
                   Traveling Around the World
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  At Minerva University, I’ve had the incredible opportunity to live, study, and work in 7 different international cities, immersing myself in each city's unique culture. Here are a few of my favorite memories from these experiences!
+                  At Minerva University, I&apos;ve had the incredible opportunity to live, study, and work in 7 different international cities, immersing myself in each city's unique culture. Here are a few of my favorite memories from these experiences!
                 </p>
               </div>
             </div>
