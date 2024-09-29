@@ -270,6 +270,49 @@ export const DATA = {
       ],
       image: "",
       video: "/jarvis.mp4",
+    },    {
+      title: "A* search maze pathfinder",
+      href: "https://github.com/ddanakim0304/AI-maze-pathfinder",
+      dates: "Sep 2024",
+      active: true,
+      description:
+        "As part of CS152-Harnessing Artificial Intelligence Algorithms assignment, I implemented the A* search algorithm to find the shortest path in a maze. The algorithm was implemented in Python and visualized using Pygame.",
+      technologies: [
+        "Python",
+        "Pygame",
+        "A* Search Algorithm",
+      ],
+      links: [
+        {
+          type: "Github",
+          href: "https://github.com/ddanakim0304/AI-maze-pathfinder",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/CS152.mp4",
+    },    {
+      title: "Automated Scheduler",
+      href: "https://github.com/ddanakim0304/2024-designing-a-Scheduler-CS110-Assignment",
+      dates: "March 2024",
+      active: true,
+      description:
+        "As part of CS110 - Problem Solving with Data Structures and Algorithms assignment, I created a scheduler that efficiently manages tasks with various dependencies, start times, and priorities using priority queues.",
+      technologies: [
+        "Python",
+        "Priority Queues",
+        "Data Structures",
+        "Algorithms",
+      ],
+      links: [
+        {
+          type: "Github",
+          href: "https://github.com/ddanakim0304/2024-designing-a-Scheduler-CS110-Assignment",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
     },
   ]
 } as const;
