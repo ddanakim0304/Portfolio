@@ -173,12 +173,12 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 14}>
             <ul>
               <li className="py-0 flex flex-col items-center">
-                <video 
-                  src="/Travel.mp4"
-                  loop 
-                  playsInline
-                  className="w-full md:w-3/4 rounded-lg shadow-lg"
+              <img 
+                  src="/Travel.png" 
+                  className="w-full md:w-3/4 rounded-lg shadow-lg" 
+                  alt="Travel Image"
                 />
+
                 <div className="mt-6 space-y-2 text-center md:text-left">
                   <p className="text-muted-foreground">
                   This was taken during my time in Berlin, where I collaborated with the international student education organization, DEGIS, and explored the city&apos;s historical landmarks. This particular moment was captured during my trip to Finland!                  </p>
@@ -186,7 +186,6 @@ export default function Page() {
               </li>
             </ul>
           </BlurFade>
-
         </div>
       </section>
 
