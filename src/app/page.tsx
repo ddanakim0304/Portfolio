@@ -152,43 +152,6 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section id="Travel">
-        <div className="space-y-6 w-full py-6">
-          <BlurFade delay={BLUR_FADE_DELAY * 13}>
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
-                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  Travel
-                </div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Traveling Around the World
-                </h2>
-                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  At Minerva University, I&apos;ve had the incredible opportunity to live, study, and work in 7 different international cities, immersing myself in each city&apos;s unique culture. Here are a few of my favorite memories from these experiences!
-                </p>
-              </div>
-            </div>
-          </BlurFade>
-
-          <BlurFade delay={BLUR_FADE_DELAY * 14}>
-            <ul>
-              <li className="py-0 flex flex-col items-center">
-              <img 
-                  src="/Travel.png" 
-                  className="w-full md:w-3/4 rounded-lg shadow-lg" 
-                  alt="Travel Image"
-                />
-
-                <div className="mt-6 space-y-2 text-center md:text-left">
-                  <p className="text-muted-foreground">
-                  This was taken during my time in Berlin, where I collaborated with the international student education organization, DEGIS, and explored the city&apos;s historical landmarks. This particular moment was captured during my trip to Finland!                  </p>
-                </div>
-              </li>
-            </ul>
-          </BlurFade>
-        </div>
-      </section>
-
       <section id="contact">
       <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-6">
         <BlurFade delay={BLUR_FADE_DELAY * 16}>
