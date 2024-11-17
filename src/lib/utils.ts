@@ -5,6 +5,16 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
+export const calculateDimensions = (
+  width: number,
+  height: number,
+  maxHeight: number
+) => {
+  const aspectRatio = width / height;
+  const newWidth = Math.floor(maxHeight * aspectRatio);
+  return { width: newWidth, height: maxHeight };
+};
+
 export function formatDate(date: string) {
   let currentDate = new Date().getTime();
   if (!date.includes("T")) {

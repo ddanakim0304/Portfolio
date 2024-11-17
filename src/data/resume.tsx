@@ -2,6 +2,7 @@ import { Icons } from "@/components/icons";
 import { Mail } from "lucide-react";
 
 export const DATA = {
+  // basic informations
   name: "Dain Kim",
   initials: "DK",
   url: "https://www.dain-kim.com",
@@ -58,6 +59,7 @@ export const DATA = {
     },
   },
 
+  // database of my works
   work: [
     {
     company: "APTO BIO",
@@ -135,8 +137,8 @@ export const DATA = {
         ),
       },    
   ],
-  hackathons: [
-  ],
+
+  // database of eductation
   education: [
     {
       school: "Minerva University",
@@ -176,6 +178,8 @@ export const DATA = {
       ),
     }
   ],
+
+    // database of my projects
   projects: [
     {
       title: "Cat-ch Me If You Can",
@@ -314,5 +318,103 @@ export const DATA = {
       image: "",
       video: "",
     },
+  ],
+
+  // database of my artworks
+  artworks: [
+    {
+      title: "Cat-ch Me If You Can",
+      href: "https://ddanakim0304.itch.io/cat-ch-me-if-you-can",
+      dates: "Jul 2024",
+      active: true,
+      description:
+        "Developed in Unity with C#, this adventure game follows an alien kitty on a quest to find her parents on Earth, utilizing unique wave-making powers to navigate the deep ocean. This was my first game development project, completed in just 22 hours (#6 ranking in Swap Jam 2024).",
+      technologies: [
+        "Unity2D",
+        "C#",
+        "Aseprite",
+      ],
+      links: [
+        {
+          type: "Play",
+          href: "https://chatcollect.com",
+          icon: <Icons.paw className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "/gameplay.mp4",
+    },
+
+    {
+      title: "Test",
+      href: "https://ddanakim0304.itch.io/cat-ch-me-if-you-can",
+      dates: "Jul 2024",
+      active: true,
+      description:
+        "Developed in Unity with C#, this adventure game follows an alien kitty on a quest to find her parents on Earth, utilizing unique wave-making powers to navigate the deep ocean. This was my first game development project, completed in just 22 hours (#6 ranking in Swap Jam 2024).",
+      technologies: [
+        "Unity2D",
+        "C#",
+        "Aseprite",
+      ],
+      links: [
+        {
+          type: "Play",
+          href: "https://chatcollect.com",
+          icon: <Icons.paw className="size-3" />,
+        },
+      ],
+      image: "/test1.png",
+      video:
+        "",
+    },
+    {
+      title: "Test2",
+      href: "https://ddanakim0304.itch.io/cat-ch-me-if-you-can",
+      dates: "Jul 2024",
+      active: true,
+      description:
+        "Developed in Unity with C#, this adventure game follows an alien kitty on a quest to find her parents on Earth, utilizing unique wave-making powers to navigate the deep ocean. This was my first game development project, completed in just 22 hours (#6 ranking in Swap Jam 2024).",
+      technologies: [
+        "Unity2D",
+        "C#",
+        "Aseprite",
+      ],
+      links: [
+        {
+          type: "Play",
+          href: "https://chatcollect.com",
+          icon: <Icons.paw className="size-3" />,
+        },
+      ],
+      image: "/test2.jpg",
+      video:
+        "",
+    },    {
+      title: "Cat-ch Me If You Can",
+      href: "https://ddanakim0304.itch.io/cat-ch-me-if-you-can",
+      dates: "Jul 2024",
+      active: true,
+      description:
+        "Developed in Unity with C#, this adventure game follows an alien kitty on a quest to find her parents on Earth, utilizing unique wave-making powers to navigate the deep ocean. This was my first game development project, completed in just 22 hours (#6 ranking in Swap Jam 2024).",
+      technologies: [
+        "Unity2D",
+        "C#",
+        "Aseprite",
+      ],
+      links: [
+        {
+          type: "Play",
+          href: "https://chatcollect.com",
+          icon: <Icons.paw className="size-3" />,
+        },
+      ],
+      image: "",
+      video:
+        "/gameplay.mp4",
+    },
   ]
+
+
 } as const;
